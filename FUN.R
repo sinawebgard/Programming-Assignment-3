@@ -98,7 +98,6 @@ rankall <- function(outcome, num = "best"){
         }
          
         
-        ##return the result data frame
-        output <- cbind(hospitals, states)
-        output
+        ##return and print the result data frame
+        (output <- cbind(hospitals, states))
 }
